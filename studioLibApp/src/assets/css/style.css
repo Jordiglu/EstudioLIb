@@ -138,13 +138,14 @@ h6,
 .navbar a:focus {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  text-transform: uppercase;
 }
 
 .navbar a i,
@@ -255,7 +256,7 @@ h6,
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(17, 38, 48, 0.9);
+  /* background: rgba(17, 38, 48, 0.9); */
   transition: 0.3s;
 }
 
@@ -268,28 +269,37 @@ h6,
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 15px;
+  top: 60px;
+  /* right: 15px; */
   bottom: 15px;
-  left: 15px;
+  left: 11%;
   padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
+  background-color: black;
   transition: 0.3s;
+  width: 80%;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1e4356;
+  /* color: #1e4356; */
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #68A4C4;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+
+
 }
+
+/* .links-nav{
+  justify-content: center;
+  color: white;
+} */
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
